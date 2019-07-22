@@ -31,9 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let statusBarBGView = UIView()
     statusBarBGView.backgroundColor = UINavigationBar.appearance().barTintColor
     
-    FirebaseApp.configure()
+//    FirebaseApp.configure()
     
-    viewController = UINavigationController(rootViewController: ViewController())
+    viewController = UINavigationController(rootViewController: MainViewController())
     
 //    if Auth.auth().currentUser != nil {
 //      viewController = UINavigationController(rootViewController: HomeController(collectionViewLayout: layout))

@@ -23,12 +23,12 @@ class BaseViewController: UIViewController {
   // MARK: Rx
   var disposeBag = DisposeBag()
   
-  // MARK: Layout Constraints
+  // MARK: Layout Constr@objc @objc @objc aints
   private(set) var didSetupConstraints = false
   
   override func viewDidLoad() {
     self.view.setNeedsUpdateConstraints()
-    customise()
+    self.customize()
   }
   
   override func updateViewConstraints() {
@@ -39,13 +39,12 @@ class BaseViewController: UIViewController {
     super.updateViewConstraints()
   }
   
-  func setupConstraints() {
-    // Override point
-  }
-  
-  func customize() {
+  func customize(){
     
   }
   
+  func setupConstraints() {
+    
+  }
 }
 
