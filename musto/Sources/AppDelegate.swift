@@ -9,6 +9,11 @@
 import UIKit
 import CoreData
 
+import Firebase
+import GoogleSignIn
+import RxOptional
+import Then
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,7 +21,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    let window = UIWindow(frame: UIScreen.main.bounds)
+    let layout = UICollectionViewFlowLayout()
+    var viewController = UIViewController()
+    
+    window.backgroundColor = .white
+    
+    UINavigationBar.appearance().barTintColor = UIColor.init(rgb: 0x282828)
+    UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+    
+    
+    let statusBarBGView = UIView()
+    statusBarBGView.backgroundColor = UINavigationBar.appearance().barTintColor
+    
+    FirebaseApp.configure()
+    
+    viewController = UINavigationController(rootViewController: ViewController())
+    
+//    if Auth.auth().currentUser != nil {
+//      viewController = UINavigationController(rootViewController: HomeController(collectionViewLayout: layout))
+//    } else {
+//      viewController = UINavigationController(rootViewController: AuthController())
+//    }
+    
+    
+    window.rootViewController = viewController
+    window.makeKeyAndVisible()
+    window.addSubview(statusBarBGView)
+    window.addConstraintsWithFormat(format: "H:|[v0]|", views: statusBarBGView)
+    window.addConstraintsWithFormat(format: "V:|[v0(20)]", views: statusBarBGView)
+    
+    socket.connect()
+    
+    self.window = window
         return true
     }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960688C422E56911008FC4F9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960688C322E56911008FC4F9 /* BaseViewController.swift */; };
+		960688C722E56A4C008FC4F9 /* mustoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960688C622E56A4C008FC4F9 /* mustoTest.swift */; };
 		D0A4FD831E718C2100F435A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FD821E718C2100F435A4 /* AppDelegate.swift */; };
 		D0A4FD851E718C2100F435A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FD841E718C2100F435A4 /* ViewController.swift */; };
 		D0A4FD8B1E718C2100F435A4 /* musto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FD891E718C2100F435A4 /* musto.xcdatamodeld */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		3E63CAA28C472B27B9434EFC /* Pods_musto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB0B35C3DEE0E8E1D2298A4 /* Pods-musto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musto.release.xcconfig"; path = "Target Support Files/Pods-musto/Pods-musto.release.xcconfig"; sourceTree = "<group>"; };
+		960688C322E56911008FC4F9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		960688C622E56A4C008FC4F9 /* mustoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mustoTest.swift; sourceTree = "<group>"; };
 		D0A4FD7F1E718C2100F435A4 /* musto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A4FD821E718C2100F435A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A4FD841E718C2100F435A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				D0A4FD821E718C2100F435A4 /* AppDelegate.swift */,
+				960688C222E568E6008FC4F9 /* Bases */,
+				960688C122E568BF008FC4F9 /* ViewController */,
 				960688BE22E5679F008FC4F9 /* Views */,
 			);
 			path = Sources;
@@ -88,10 +94,35 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		960688C122E568BF008FC4F9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0A4FD841E718C2100F435A4 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		960688C222E568E6008FC4F9 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				960688C322E56911008FC4F9 /* BaseViewController.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		960688C522E56A21008FC4F9 /* mustoTests */ = {
+			isa = PBXGroup;
+			children = (
+				960688C622E56A4C008FC4F9 /* mustoTest.swift */,
+			);
+			path = mustoTests;
+			sourceTree = "<group>";
+		};
 		D0A4FD761E718C2000F435A4 = {
 			isa = PBXGroup;
 			children = (
 				D0A4FD811E718C2100F435A4 /* musto */,
+				960688C522E56A21008FC4F9 /* mustoTests */,
 				D0A4FD801E718C2100F435A4 /* Products */,
 				104E651EB815BD39D85C276F /* Pods */,
 				6D53B54F08E8283F3CF66683 /* Frameworks */,
@@ -115,7 +146,6 @@
 				D0A4FD891E718C2100F435A4 /* musto.xcdatamodeld */,
 				960688BD22E56774008FC4F9 /* Sources */,
 				960688BF22E567A7008FC4F9 /* Support */,
-				D0A4FD841E718C2100F435A4 /* ViewController.swift */,
 			);
 			path = musto;
 			sourceTree = "<group>";
@@ -155,7 +185,7 @@
 				TargetAttributes = {
 					D0A4FD7E1E718C2000F435A4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7EE73P8D44;
+						DevelopmentTeam = J7Z34D9GUA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -342,8 +372,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0A4FD851E718C2100F435A4 /* ViewController.swift in Sources */,
+				960688C422E56911008FC4F9 /* BaseViewController.swift in Sources */,
 				D0A4FD8B1E718C2100F435A4 /* musto.xcdatamodeld in Sources */,
 				D0A4FD831E718C2100F435A4 /* AppDelegate.swift in Sources */,
+				960688C722E56A4C008FC4F9 /* mustoTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +439,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,6 +482,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -459,12 +493,12 @@
 			baseConfigurationReference = F59FC9F2167EFBF9484B811A /* Pods-musto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7EE73P8D44;
-				INFOPLIST_FILE = musto/Info.plist;
+				DEVELOPMENT_TEAM = J7Z34D9GUA;
+				INFOPLIST_FILE = "$(SRCROOT)/musto/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.iwin247.musto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -473,12 +507,12 @@
 			baseConfigurationReference = 6AB0B35C3DEE0E8E1D2298A4 /* Pods-musto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7EE73P8D44;
-				INFOPLIST_FILE = musto/Info.plist;
+				DEVELOPMENT_TEAM = J7Z34D9GUA;
+				INFOPLIST_FILE = "$(SRCROOT)/musto/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.iwin247.musto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
