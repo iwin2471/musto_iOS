@@ -43,7 +43,7 @@ class BaseViewController: UIViewController {
     // Override point
   }
   
-  func customise() {
+  func customize() {
     
   }
   
