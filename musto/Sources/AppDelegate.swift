@@ -27,9 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     window.backgroundColor = .white
     
-    UINavigationBar.appearance().barTintColor = UIColor.init(rgb: 0x282828)
-    UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
-    
     
     let statusBarBGView = UIView()
     statusBarBGView.backgroundColor = UINavigationBar.appearance().barTintColor
@@ -48,10 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window.rootViewController = viewController
     window.makeKeyAndVisible()
     window.addSubview(statusBarBGView)
-    window.addConstraintsWithFormat(format: "H:|[v0]|", views: statusBarBGView)
-    window.addConstraintsWithFormat(format: "V:|[v0(20)]", views: statusBarBGView)
     
-    socket.connect()
+//    socket.connect()
     
     self.window = window
         return true

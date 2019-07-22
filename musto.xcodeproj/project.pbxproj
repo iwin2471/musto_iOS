@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		960688C422E56911008FC4F9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960688C322E56911008FC4F9 /* BaseViewController.swift */; };
-		960688C722E56A4C008FC4F9 /* mustoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960688C622E56A4C008FC4F9 /* mustoTest.swift */; };
+		96ECAA7922E56D2400C8B111 /* mustoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECAA7822E56D2400C8B111 /* mustoTests.swift */; };
+		96ECAA8722E56D3800C8B111 /* mustoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECAA8622E56D3800C8B111 /* mustoUITests.swift */; };
 		D0A4FD831E718C2100F435A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FD821E718C2100F435A4 /* AppDelegate.swift */; };
 		D0A4FD851E718C2100F435A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FD841E718C2100F435A4 /* ViewController.swift */; };
 		D0A4FD8B1E718C2100F435A4 /* musto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FD891E718C2100F435A4 /* musto.xcdatamodeld */; };
@@ -17,11 +18,33 @@
 		F3137B3DF6371F89C5EED3F6 /* Pods_musto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E63CAA28C472B27B9434EFC /* Pods_musto.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		96ECAA7B22E56D2400C8B111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A4FD771E718C2000F435A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A4FD7E1E718C2000F435A4;
+			remoteInfo = musto;
+		};
+		96ECAA8922E56D3800C8B111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A4FD771E718C2000F435A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A4FD7E1E718C2000F435A4;
+			remoteInfo = musto;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3E63CAA28C472B27B9434EFC /* Pods_musto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB0B35C3DEE0E8E1D2298A4 /* Pods-musto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musto.release.xcconfig"; path = "Target Support Files/Pods-musto/Pods-musto.release.xcconfig"; sourceTree = "<group>"; };
 		960688C322E56911008FC4F9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		960688C622E56A4C008FC4F9 /* mustoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mustoTest.swift; sourceTree = "<group>"; };
+		96ECAA7622E56D2400C8B111 /* mustoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mustoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECAA7822E56D2400C8B111 /* mustoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mustoTests.swift; sourceTree = "<group>"; };
+		96ECAA7A22E56D2400C8B111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ECAA8422E56D3800C8B111 /* mustoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mustoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECAA8622E56D3800C8B111 /* mustoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mustoUITests.swift; sourceTree = "<group>"; };
+		96ECAA8822E56D3800C8B111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A4FD7F1E718C2100F435A4 /* musto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A4FD821E718C2100F435A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A4FD841E718C2100F435A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +56,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		96ECAA7322E56D2400C8B111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECAA8122E56D3800C8B111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0A4FD7C1E718C2000F435A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,19 +147,30 @@
 			path = Bases;
 			sourceTree = "<group>";
 		};
-		960688C522E56A21008FC4F9 /* mustoTests */ = {
+		96ECAA7722E56D2400C8B111 /* mustoTests */ = {
 			isa = PBXGroup;
 			children = (
-				960688C622E56A4C008FC4F9 /* mustoTest.swift */,
+				96ECAA7822E56D2400C8B111 /* mustoTests.swift */,
+				96ECAA7A22E56D2400C8B111 /* Info.plist */,
 			);
 			path = mustoTests;
+			sourceTree = "<group>";
+		};
+		96ECAA8522E56D3800C8B111 /* mustoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96ECAA8622E56D3800C8B111 /* mustoUITests.swift */,
+				96ECAA8822E56D3800C8B111 /* Info.plist */,
+			);
+			path = mustoUITests;
 			sourceTree = "<group>";
 		};
 		D0A4FD761E718C2000F435A4 = {
 			isa = PBXGroup;
 			children = (
 				D0A4FD811E718C2100F435A4 /* musto */,
-				960688C522E56A21008FC4F9 /* mustoTests */,
+				96ECAA7722E56D2400C8B111 /* mustoTests */,
+				96ECAA8522E56D3800C8B111 /* mustoUITests */,
 				D0A4FD801E718C2100F435A4 /* Products */,
 				104E651EB815BD39D85C276F /* Pods */,
 				6D53B54F08E8283F3CF66683 /* Frameworks */,
@@ -133,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				D0A4FD7F1E718C2100F435A4 /* musto.app */,
+				96ECAA7622E56D2400C8B111 /* mustoTests.xctest */,
+				96ECAA8422E56D3800C8B111 /* mustoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +203,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		96ECAA7522E56D2400C8B111 /* mustoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECAA7D22E56D2400C8B111 /* Build configuration list for PBXNativeTarget "mustoTests" */;
+			buildPhases = (
+				96ECAA7222E56D2400C8B111 /* Sources */,
+				96ECAA7322E56D2400C8B111 /* Frameworks */,
+				96ECAA7422E56D2400C8B111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ECAA7C22E56D2400C8B111 /* PBXTargetDependency */,
+			);
+			name = mustoTests;
+			productName = mustoTests;
+			productReference = 96ECAA7622E56D2400C8B111 /* mustoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96ECAA8322E56D3800C8B111 /* mustoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECAA8B22E56D3800C8B111 /* Build configuration list for PBXNativeTarget "mustoUITests" */;
+			buildPhases = (
+				96ECAA8022E56D3800C8B111 /* Sources */,
+				96ECAA8122E56D3800C8B111 /* Frameworks */,
+				96ECAA8222E56D3800C8B111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ECAA8A22E56D3800C8B111 /* PBXTargetDependency */,
+			);
+			name = mustoUITests;
+			productName = mustoUITests;
+			productReference = 96ECAA8422E56D3800C8B111 /* mustoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D0A4FD7E1E718C2000F435A4 /* musto */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0A4FD941E718C2100F435A4 /* Build configuration list for PBXNativeTarget "musto" */;
@@ -179,10 +265,22 @@
 		D0A4FD771E718C2000F435A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = musto;
 				TargetAttributes = {
+					96ECAA7522E56D2400C8B111 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = J7Z34D9GUA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0A4FD7E1E718C2000F435A4;
+					};
+					96ECAA8322E56D3800C8B111 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = J7Z34D9GUA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0A4FD7E1E718C2000F435A4;
+					};
 					D0A4FD7E1E718C2000F435A4 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = J7Z34D9GUA;
@@ -205,11 +303,27 @@
 			projectRoot = "";
 			targets = (
 				D0A4FD7E1E718C2000F435A4 /* musto */,
+				96ECAA7522E56D2400C8B111 /* mustoTests */,
+				96ECAA8322E56D3800C8B111 /* mustoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		96ECAA7422E56D2400C8B111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECAA8222E56D3800C8B111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0A4FD7D1E718C2000F435A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +481,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		96ECAA7222E56D2400C8B111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECAA7922E56D2400C8B111 /* mustoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECAA8022E56D3800C8B111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECAA8722E56D3800C8B111 /* mustoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0A4FD7B1E718C2000F435A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,11 +505,23 @@
 				960688C422E56911008FC4F9 /* BaseViewController.swift in Sources */,
 				D0A4FD8B1E718C2100F435A4 /* musto.xcdatamodeld in Sources */,
 				D0A4FD831E718C2100F435A4 /* AppDelegate.swift in Sources */,
-				960688C722E56A4C008FC4F9 /* mustoTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96ECAA7C22E56D2400C8B111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A4FD7E1E718C2000F435A4 /* musto */;
+			targetProxy = 96ECAA7B22E56D2400C8B111 /* PBXContainerItemProxy */;
+		};
+		96ECAA8A22E56D3800C8B111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A4FD7E1E718C2000F435A4 /* musto */;
+			targetProxy = 96ECAA8922E56D3800C8B111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D0A4FD8E1E718C2100F435A4 /* LaunchScreen.storyboard */ = {
@@ -393,6 +535,134 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		96ECAA7E22E56D2400C8B111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7Z34D9GUA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = mustoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = eco.talantchain.mustoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/musto.app/musto";
+			};
+			name = Debug;
+		};
+		96ECAA7F22E56D2400C8B111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7Z34D9GUA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = mustoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = eco.talantchain.mustoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/musto.app/musto";
+			};
+			name = Release;
+		};
+		96ECAA8C22E56D3800C8B111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7Z34D9GUA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = mustoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = eco.talantchain.mustoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = musto;
+			};
+			name = Debug;
+		};
+		96ECAA8D22E56D3800C8B111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7Z34D9GUA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = mustoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = eco.talantchain.mustoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = musto;
+			};
+			name = Release;
+		};
 		D0A4FD921E718C2100F435A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -519,6 +789,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		96ECAA7D22E56D2400C8B111 /* Build configuration list for PBXNativeTarget "mustoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECAA7E22E56D2400C8B111 /* Debug */,
+				96ECAA7F22E56D2400C8B111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ECAA8B22E56D3800C8B111 /* Build configuration list for PBXNativeTarget "mustoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECAA8C22E56D3800C8B111 /* Debug */,
+				96ECAA8D22E56D3800C8B111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D0A4FD7A1E718C2000F435A4 /* Build configuration list for PBXProject "musto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
